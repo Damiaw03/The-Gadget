@@ -1,0 +1,240 @@
+
+body {
+    
+    background-image: url(https://i.pinimg.com/originals/41/18/3d/41183d44ebd4c5b4500ec65a9ade4d3f.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    
+    
+    
+}
+
+main {
+    flex: 1;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+.bg {
+    background-image: url(https://i.pinimg.com/originals/41/18/3d/41183d44ebd4c5b4500ec65a9ade4d3f.gif);
+    color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial Narrow Bold', Impact;
+    font-size: 24px;
+}   
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}     
+
+.logo {
+    background-image: url(logo.png);
+    background-size: 95px;
+    justify-content: left;
+}
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        z-index: 1000;
+        justify-content: left;
+      }
+      
+nav img {
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: left;
+} 
+nav a {
+    color: #f44;
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color:  #ecedf7;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ul li {
+    padding: 5px;
+}
+footer {
+    background-color: #333;
+    text-align: left;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+    color: rgb(24, 14, 14);
+    position: relative;
+    
+}
+    /* Dropdown styles */
+    .dropdown {
+position: relative;
+display: inline-block;
+
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #fafcff;
+min-width: 160px;
+box-shadow:   #d5e1ec; 
+z-index: 1;
+}
+.dropdown-content a {
+color: rgb(7, 7, 7);
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+.dropdown-content a:hover {
+background-color: #d5e1ec;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown:hover .dropbtn {
+background-color:  #d5e1ec;
+}
+
+h1 {
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+    padding: 10px;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+
+.intro {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #007BFF;
+    color: #fff;
+}
+.header h1 {
+    margin: 0;
+}
+.content {
+    margin: 20px 0;
+}
+.content img {
+    max-width: 100%;
+    height: auto;
+}
+.content h2 {
+    color: #007BFF;
+}
+.features {
+    list-style: none;
+    padding: 0;
+}
+.features li {
+    background: #eee;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+}
+
+.policy {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #ffffff;
+}
+p {
+    margin: 1em 0;
+}
+ul {
+    margin: 1em 0;
+    padding: 0;
+    list-style: none;
+}
+ul li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #007BFF;
+}
+
+
+.img2 {
+    float: center;
+
+}
+
+.tab {
+    background-color:azure; 
+    color:black;
+}
+
+.phone {
+    align-items: right;
+}
+.activelink {
+    background-color: #d5e1ec;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    background-size: cover;
+    font-size: 18px;
+    padding: 10px;
+    width: 800px;
+    color: white;
+}
